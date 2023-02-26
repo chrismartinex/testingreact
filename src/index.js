@@ -1,17 +1,20 @@
+// import the react and the react dom library
 import React from 'react';
+import { Form } from 'react-bootstrap';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import App, {message} from './App';
+// import App,{ message }from './App'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// get a reference to the div and with id root
+const el = document.getElementById('root');
+// tell react to take control of the component
+const root = ReactDOM.createRoot(el);
+//create component
+
+
+//show components on the screen
+root.render(<App/>);
+
+// const date = new Date();
+// const time = date.toLocaleTimeString();
