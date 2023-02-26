@@ -1,3 +1,6 @@
+//02/27/2023
+created a simple react app that holds components and 3 hero cards, using Bulma CSS. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
